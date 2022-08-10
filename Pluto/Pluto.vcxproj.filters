@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{9e3b4d6d-7274-4290-8d61-2d0b056803eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Asset %28 Resource Layer %29">
+      <UniqueIdentifier>{b2b3a160-7b15-4483-a1a6-3bb153034701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Core %28 Core Layer %29">
+      <UniqueIdentifier>{96acc515-d38a-4ae9-a71e-e89261bae968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Editor %28 Tool Layer %29">
+      <UniqueIdentifier>{afd62916-2d67-4c67-8ee3-1b43bf73462d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Engine %28 Function Layer %29">
+      <UniqueIdentifier>{1b491309-0504-44b0-b1c1-5bdb4ac272e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Platform %28 Platform Layer %29">
+      <UniqueIdentifier>{23125aea-1d1b-4f30-8e7d-62668b2a5b41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Platform %28 Platform Layer %29\Windows">
+      <UniqueIdentifier>{f97101a6-1547-4dea-abdd-d0d16b26cca2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sources\Main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sources\Common.hpp">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Platform\Windows\Win.hpp">
+      <Filter>Sources\Platform %28 Platform Layer %29\Windows</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
